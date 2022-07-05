@@ -4,6 +4,10 @@ echo "## ====================================================== ##"
 echo "## This script requires that you have 'ffmpeg' installed! ##"
 echo "## ====================================================== ##"
 
+if ffmpeg -version | grep -q 'ffmpeg version'; then
+   echo "ffmpeg -version returned"
+fi
+
 INFOLDER="./IN/"
 OUTFOLDER="./OUT/"
 
