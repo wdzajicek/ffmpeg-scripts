@@ -24,8 +24,8 @@ Temporary Items
 
 ## IGNORES SPECIFIC TO THIS PROJECT
 ## Don't push video files!
-IN/*.mp4
+scripts/IN/*.mp4
 
-OUT/*.ogv
-OUT/*.webm
-OUT/*.mp4
+scripts/OUT/*.ogv
+scripts/OUT/*.webm
+scripts/OUT/*.mp4
