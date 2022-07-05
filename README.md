@@ -1,6 +1,8 @@
 # `ffmpeg` Scripts
 
+>
 > Bash scripts to help automate common `ffmpeg` video-conversion commands that I'm always using for work!
+> 
 
 -----
 
@@ -18,6 +20,10 @@ Check out more information about ffmpeg at the official website: <https://ffmpeg
 -----
 
 ## Checking your `ffmpeg` installation
+
+**This section is provided as a convenience and is not necessary** — especially if you have a brand new `ffmpeg` install of the latest version. The scripts in this section are used to verify your `ffmpeg` installation and configuration settings.
+
+If you installed `ffmpeg` a long time ago, you may want to run these scripts and make sure your install can handle the video conversions.
 
 ### `ffmpeg` version
 
@@ -49,9 +55,9 @@ It uses the output from the `ffmpeg -buildconf` command to check for the correct
 
 1. Copy your source `*.mp4` video-file into the local `./scripts/IN/` folder
 2. Run desired bash script:
-   - E.g. `sh ./scripts/bash mp4-to-ogv.sh`
-3. Answer any prompts (to set quality settings.)
-4. The converted video will be output to the local `./scripts/OUT/` folder after ffmpeg has completed running (which may take several minutes depending on file size.)
+   - E.g. `sh ./scripts/mp4-to-ogv.sh`
+3. Answer any prompts (to set your quality settings,) or press return to accept defaults.
+4. The converted video will be output to the local `./scripts/OUT/` folder after `ffmpeg` has completed running (which may take several minutes depending on file size.)
 
 -----
 
